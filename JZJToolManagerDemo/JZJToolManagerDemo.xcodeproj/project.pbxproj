@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D76F0B541F28996F002F2649 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = D76F0B531F28996F002F2649 /* Tool.m */; };
 		D79217C91F286CB9002D01CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79217C81F286CB9002D01CC /* main.m */; };
 		D79217CC1F286CB9002D01CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79217CB1F286CB9002D01CC /* AppDelegate.m */; };
 		D79217CF1F286CB9002D01CC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79217CE1F286CB9002D01CC /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D76F0B521F28996F002F2649 /* Tool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		D76F0B531F28996F002F2649 /* Tool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 		D79217C41F286CB9002D01CC /* JZJToolManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JZJToolManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79217C81F286CB9002D01CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D79217CA1F286CB9002D01CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 			children = (
 				D79217E31F28767B002D01CC /* JZJToolManager.h */,
 				D79217E41F28767B002D01CC /* JZJToolManager.m */,
+				D76F0B521F28996F002F2649 /* Tool.h */,
+				D76F0B531F28996F002F2649 /* Tool.m */,
 			);
 			path = JZJToolManager;
 			sourceTree = SOURCE_ROOT;
@@ -163,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D76F0B541F28996F002F2649 /* Tool.m in Sources */,
 				D79217CF1F286CB9002D01CC /* ViewController.m in Sources */,
 				D79217CC1F286CB9002D01CC /* AppDelegate.m in Sources */,
 				D79217E51F28767B002D01CC /* JZJToolManager.m in Sources */,
@@ -321,6 +327,7 @@
 				D79217DD1F286CB9002D01CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
