@@ -13,7 +13,7 @@
 		D79217D21F286CB9002D01CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79217D01F286CB9002D01CC /* Main.storyboard */; };
 		D79217D41F286CB9002D01CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79217D31F286CB9002D01CC /* Assets.xcassets */; };
 		D79217D71F286CB9002D01CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79217D51F286CB9002D01CC /* LaunchScreen.storyboard */; };
-		D79217E11F286DE2002D01CC /* JZJToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D79217E01F286DE2002D01CC /* JZJToolManager.m */; };
+		D79217E51F28767B002D01CC /* JZJToolManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D79217E41F28767B002D01CC /* JZJToolManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		D79217D31F286CB9002D01CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79217D61F286CB9002D01CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79217D81F286CB9002D01CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D79217DF1F286DE2002D01CC /* JZJToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZJToolManager.h; sourceTree = "<group>"; };
-		D79217E01F286DE2002D01CC /* JZJToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZJToolManager.m; sourceTree = "<group>"; };
+		D79217E31F28767B002D01CC /* JZJToolManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZJToolManager.h; sourceTree = "<group>"; };
+		D79217E41F28767B002D01CC /* JZJToolManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZJToolManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 		D79217C61F286CB9002D01CC /* JZJToolManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				D79217DE1F286CD3002D01CC /* JZJToolManager */,
+				D79217E21F28767B002D01CC /* JZJToolManager */,
 				D79217CA1F286CB9002D01CC /* AppDelegate.h */,
 				D79217CB1F286CB9002D01CC /* AppDelegate.m */,
 				D79217CD1F286CB9002D01CC /* ViewController.h */,
@@ -83,14 +83,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D79217DE1F286CD3002D01CC /* JZJToolManager */ = {
+		D79217E21F28767B002D01CC /* JZJToolManager */ = {
 			isa = PBXGroup;
 			children = (
-				D79217DF1F286DE2002D01CC /* JZJToolManager.h */,
-				D79217E01F286DE2002D01CC /* JZJToolManager.m */,
+				D79217E31F28767B002D01CC /* JZJToolManager.h */,
+				D79217E41F28767B002D01CC /* JZJToolManager.m */,
 			);
 			path = JZJToolManager;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -165,7 +165,7 @@
 			files = (
 				D79217CF1F286CB9002D01CC /* ViewController.m in Sources */,
 				D79217CC1F286CB9002D01CC /* AppDelegate.m in Sources */,
-				D79217E11F286DE2002D01CC /* JZJToolManager.m in Sources */,
+				D79217E51F28767B002D01CC /* JZJToolManager.m in Sources */,
 				D79217C91F286CB9002D01CC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
