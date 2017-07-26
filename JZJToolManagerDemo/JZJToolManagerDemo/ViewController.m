@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "JZJToolManager.h"
+#import "Tool.h"
 @interface ViewController ()
 
 @end
@@ -18,6 +19,7 @@
     [super viewDidLoad];
     
     [JZJToolManager show];
+    [Tool print];
 }
 
 
